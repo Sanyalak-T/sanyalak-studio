@@ -40,7 +40,7 @@
   #home-a .specials,
   #home-b .stats,
   #home-c .process,
-  #home-d .testimonials,
+  #about-d .testimonials,
   #contact-b .contact-info,
   .items {
     grid-template-columns: 1fr;
@@ -64,11 +64,11 @@
   /* about */
   #about-a .about-info {
     grid-template-areas:
-      'bioimage'
-      'bio'
-      'aw1'
-      'aw2'
-      'aw3';
+      "bioimage"
+      "bio"
+      "aw1"
+      "aw2"
+      "aw3";
   }
 
   #about-c {
@@ -78,11 +78,11 @@
   /* contact */
   #contact-a .text-fields {
     grid-template-areas:
-      'name'
-      'subject'
-      'email'
-      'phone'
-      'message';
+      "name"
+      "subject"
+      "email"
+      "phone"
+      "message";
   }
 
   #contact-b div {
